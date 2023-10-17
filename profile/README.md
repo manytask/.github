@@ -1,18 +1,17 @@
 # Manytask | Test students solutions
 
-**Manytask** is a comprehensive system designed for the organization and management of programming language courses.
+**Manytask** is a robust platform for managing and organizing programming language courses: test, score and 
 
-* Course Management: It aids in the structuring and organization of programming courses, streamlining the learning process.
-* Score Management: Manytask acts as a central hub to store students' scores. It offers features for score editing and presents them in an easily comprehensible format for students to view.
-* Automated Testing: A standout feature is its capability to run automated tests against students' submitted solutions, ensuring objective and consistent evaluation.
+### Key Features:
 
+- **Universal Compatibility**: Supports courses in any programming language, easy customisable.
+- **Automated Testing**: Run objective tests on student solutions for consistent evaluations - support public and private tests.
+- **Score Management**: A centralized system for storing and presenting student scores. Edit scores and display them in a student-friendly manner.
+- **GitLab Integration**: Manage code, submissions, code reviews, and track progress efficiently with GitLab integration.
+- **Real-World Learning**: Manytask simulate real-world scenarios in the learning process, it uses pytest, garber etc.
+- **Isolated Test Environments**: Ensure fair, secure, and consistent evaluations with our isolated testing environments.
 
-Manytask isn't just another pytest; it is set apart by its unique features:
-* GitLab Integration: Seamlessly integrated with GitLab, allowing for efficient code management, submission, codereview, and tracking.
-* Production-Oriented Approach: With Manytask, students learn fow to work. Our system replicates real-world scenarios, ensuring that students are well-prepared for practical, on-field challenges.
-* Test Environment Isolation: Our testing mechanism guarantees that each student's solution is evaluated in an isolated environment, ensuring fairness, security, and consistency.
-
-Experience a new way of teaching and learning with Manytask.
+Discover a modern approach to teaching and learning with Manytask.
 
 
 ### Ecosystem
@@ -20,6 +19,11 @@ Experience a new way of teaching and learning with Manytask.
 * [manytask][manytask-repo] - Web service to store students scores, maintain deadlines, and show it to the student;
 * [checker][checker-repo] - Python CLI script to run build and run tests against students' solutions, then push scores to manytask;
 * [course-template][course-templace-repo] - Template of the simple course to base yours on;
+
+
+### Contribution
+
+We are thrilled that you're considering contributing to Manytask! Please refer to organisation [contribution guide][[contributing-link].
 
 
 ### Code of Conduct
@@ -44,3 +48,4 @@ The first version named [shad-ts](https://gitlab.com/slon/shad-ts/) was develope
 [checker-repo]: https://github.com/manytask/checker
 [course-templace-repo]: https://github.com/manytask/course-templace
 [conduct-link]: https://github.com/manytask/.github/blob/main/CODE_OF_CONDUCT.md
+[contributing-link]: https://github.com/manytask/.github/blob/main/CONTRIBUTING.md

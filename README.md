@@ -19,7 +19,7 @@ To use a workflow from this folder, you need to call it from another workflow in
 ```yaml
 jobs:
   call-workflow-passing-data:
-    uses: manytask/.github/workflows/reusable-workflow.yml@main
+    uses: manytask/.github/.github/workflows/reusable-workflow.yml@main
     with:
       config-path: .github/labeler.yml
     secrets:
