@@ -23,7 +23,7 @@ Discover a modern approach to teaching and learning with Manytask.
 
 ### Contribution
 
-We are thrilled that you're considering contributing to Manytask! Please refer to organisation [contribution guide][[contributing-link].
+We are thrilled that you're considering contributing to Manytask! Please refer to organisation [contribution guide][contributing-link].
 
 
 ### Code of Conduct
