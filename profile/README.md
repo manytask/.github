@@ -1,6 +1,6 @@
 # Manytask | Test students solutions
 
-**Manytask** is a robust platform for managing and organizing programming language courses: test, score and 
+**Manytask** is a robust platform for managing and organizing programming language courses: test, score and store.
 
 ### Key Features:
 
