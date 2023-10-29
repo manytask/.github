@@ -1,25 +1,24 @@
 <!-- Thanks for creating this pull request 🤗
 Please make sure that the pull request is limited to one type (docs, feature, etc.) and keep it as small as possible. 
-You can open multiple prs instead of opening a huge one. -->
-
-<!-- Feel free to set Draft status if you need help or want to discuss something before submitting the pull request. -->
+Feel free to set Draft status if you need help or want to discuss. -->
 
 <!-- If this pull request closes an issue, please mention the issue number below -->
-
 Closes #<!-- Issue # here -->
+
 
 ## Description
 
-<!-- Describe the specific changes that have been made in this pull 
-request. Provide details on the approach taken to address the problem 
-and any notable implementation details. -->
+<!-- Which changes sre suggested? How specific behaviour will change? -->
 
 
 ## Motivation and Context
 
 <!-- Why is this change required? What problem does it solve? -->
 
-Related to #<!-- PR # here -->, #<!-- Issue # here -->, <!-- or other context -->
+Related to 
+* #<!-- PR # here -->
+* #<!-- Issue # here -->
+* <!-- or other context -->
 
 
 ## Contribution Checklist
@@ -43,15 +42,16 @@ Added to documentation?
 - [ ] no documentation needed
 
 
-## [optional] Screenshots <!-- delete section if not needed -->
+## [optional] Screenshots
 <!-- If the changes are visual, including screenshots or GIFs can 
 help reviewers understand them more easily. -->
 
 
-## [optional] Special notes <!-- delete section if not needed -->
+## [optional] Special notes
 <!-- If there are any specific instructions or considerations you 
 want to highlight for the reviewer, include them in this section. -->
 
 
-## [optional] What gif best describes this PR or how it makes you feel? <!-- delete section if not needed -->
+## [optional] What gif best describes this PR or how it makes you feel?
 <!-- You can use this one if you want: https://media.giphy.com/media/3o7aDcz6Y0fzWYvU5a/giphy.gif -->
+<!-- ![](https://media.giphy.com/media/3o7aDcz6Y0fzWYvU5a/giphy.gif) -->
