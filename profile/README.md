@@ -46,6 +46,6 @@ The first version named [shad-ts](https://gitlab.com/slon/shad-ts/) was develope
 [ysda-org]: https://github.com/yandexdataschool
 [manytask-repo]: https://github.com/manytask/manytask
 [checker-repo]: https://github.com/manytask/checker
-[course-templace-repo]: https://github.com/manytask/course-templace
+[course-templace-repo]: https://github.com/manytask/course-template
 [conduct-link]: https://github.com/manytask/.github/blob/main/CODE_OF_CONDUCT.md
 [contributing-link]: https://github.com/manytask/.github/blob/main/CONTRIBUTING.md
