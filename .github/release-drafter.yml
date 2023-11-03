@@ -85,7 +85,7 @@ categories:
     labels: ['enhancement', 'refactor', 'performance', 'style']
   - title: 'Documentation'
     label: 'documentation'
+  - title: 'Other changes'
   - title: 'Dependency Updates'
     label: 'dependencies'
 #    collapse-after: 5
-  - title: 'Other changes'
