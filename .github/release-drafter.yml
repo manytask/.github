@@ -87,5 +87,5 @@ categories:
     label: 'documentation'
   - title: 'Dependency Updates'
     label: 'dependencies'
-    collapse-after: 5
+#    collapse-after: 5
   - title: 'Other changes'
