@@ -41,9 +41,6 @@ jobs:
         run: |
           echo -n "${{ inputs.release_tag }}" > VERSION
 
-      - name: Delete existing tag (to move it later)
-        run: git push --delete origin ${{ inputs.release_tag }}
-
       - name: Commit updated CHANGELOG and VERSION files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -52,3 +49,8 @@ jobs:
           file_pattern: 'CHANGELOG.md VERSION'
           push_options: '--force'
           tagging_message: ${{ inputs.release_tag }}
+
+      - name: Move git tag to latest commit and push it
+        run: |
+          git tag --force ${{ inputs.release_tag }}
+          git push origin ${{ inputs.release_tag }} --force
