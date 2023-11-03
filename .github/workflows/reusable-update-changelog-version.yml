@@ -45,7 +45,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: ${{ inputs.release_target }}
-          commit_message: 'chore(auto): update CHANGELOG and VERSION files for ${{ inputs.release_tag }}\n[skip ci]'
+          commit_message: 'chore(auto): update CHANGELOG and VERSION files with ${{ inputs.release_tag }} [skip ci]'
           file_pattern: 'CHANGELOG.md VERSION'
           push_options: '--force'
 
