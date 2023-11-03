@@ -52,7 +52,7 @@ autolabeler:
     title:
       - '/perf:.*/'
       - '/performance:.*/'
-  - label: 'type: test'
+  - label: 'test'
     title:
       - '/test.*/'
     files:
