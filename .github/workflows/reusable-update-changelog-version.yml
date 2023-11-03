@@ -12,6 +12,9 @@ on:
       release_body:
         required: true
         type: string
+      release_url:
+        required: true
+        type: string
 
 
 jobs:
@@ -32,6 +35,7 @@ jobs:
         with:
           latest-version: ${{ inputs.release_tag }}
           release-notes: ${{ inputs.release_body }}
+          heading-text: '[${{ inputs.release_tag }}](${{ inputs.release_url }})'
 
       - name: Update Version
         run: |
