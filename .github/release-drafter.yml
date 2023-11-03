@@ -2,7 +2,7 @@ name-template: '$RESOLVED_VERSION'
 tag-template: '$RESOLVED_VERSION'
 
 change-template: '- $TITLE by @$AUTHOR in [#$NUMBER](https://github.com/$OWNER/$REPOSITORY/pull/$NUMBER)'
-
+category-template: '### $TITLE'
 template: |
   <TODO: summary of changes here>
   
