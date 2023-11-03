@@ -48,7 +48,6 @@ jobs:
           commit_message: 'chore(auto): update CHANGELOG and VERSION files for ${{ inputs.release_tag }}\n[skip ci]'
           file_pattern: 'CHANGELOG.md VERSION'
           push_options: '--force'
-          tagging_message: ${{ inputs.release_tag }}
 
       - name: Move git tag to latest commit and push it
         run: |
