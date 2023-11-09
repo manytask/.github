@@ -72,6 +72,11 @@ autolabeler:
 exclude-labels:
   - 'skip-changelog'
 
+exclude-contributors:
+  - 'manytask-bot'
+  - 'manytask-service'
+
+
 categories:
   - title: 'Breaking'
     label: 'breaking'
