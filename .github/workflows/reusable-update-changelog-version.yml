@@ -34,11 +34,6 @@ jobs:
           ref: ${{ inputs.release_target }}
           token: ${{ secrets.token }}
 
-#      - name: Setup git
-#        run: |
-#          git config --global user.name 'github-actions[bot]'
-#          git config --global user.email 'manytask-service@users.noreply.github.com'
-
       - name: Update Changelog
         uses: stefanzweifel/changelog-updater-action@v1
         with:
@@ -50,21 +45,11 @@ jobs:
         run: |
           echo -n "${{ inputs.release_tag }}" > VERSION
 
-#      - name: Commit updated files
-#        run: |
-#          git add VERSION CHANGELOG.md
-#          git commit -m "chore: auto version and changelog update (${{ github.ref_name }})" -m "[no ci]" || true
-#          git push origin
-#      - name: Tag new commit
-#        run: |
-#          git tag --force ${{ github.ref_name }}
-#          git push origin ${{ github.ref_name }} --force
-
       - name: Commit updated CHANGELOG and VERSION files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: ${{ inputs.release_target }}
-          commit_message: 'chore(auto): update CHANGELOG and VERSION files with ${{ inputs.release_tag }} [skip ci]'
+          commit_message: 'chore(auto): update CHANGELOG.md and VERSION with ${{ inputs.release_tag }} [skip ci]'
           file_pattern: 'CHANGELOG.md VERSION'
           push_options: '--force'
 
