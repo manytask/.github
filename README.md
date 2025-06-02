@@ -4,7 +4,6 @@ Community health files for the @manytask organization.
 
 - [Code of Conduct](./CODE_OF_CONDUCT.md)
 - [Contributing Guide](./CONTRIBUTING.md)
-- [Pull Request Template](./PULL_REQUEST_TEMPLATE.md)
 - [Issue Templates](./ISSUE_TEMPLATE)
 
 Also, [organization profile README.md](./profile/README.md) is available.
