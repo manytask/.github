@@ -46,7 +46,7 @@ jobs:
           echo -n "${{ inputs.release_tag }}" > VERSION
 
       - name: Commit updated CHANGELOG and VERSION files
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v6
         with:
           branch: ${{ inputs.release_target }}
           commit_message: 'chore(auto): update CHANGELOG.md and VERSION with ${{ inputs.release_tag }} [skip ci]'
