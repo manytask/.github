@@ -42,6 +42,16 @@ The first version named [shad-ts](https://gitlab.com/slon/shad-ts/) was develope
 * Nikita Bondartsev - minor updates for YSDA Python course, 2020-2021
 * [Konstantin Chernyshev](https://github.com/k4black) - moving to github, massive updates, 2020-2024
 
+Current developers:
+
+* [Sofia Anokhovskaya](https://github.com/cin-bun)
+* [Olga Gorbunova](https://github.com/elyaishere)
+* [Ivan Gorobets](https://github.com/KIoppert)
+* [Ivan Komarov](https://github.com/gagarinkomar)
+* [Alexander Kostrikov](https://github.com/akostrikov)
+* [Daniil Maslov](https://github.com/dmasloff)
+* [Alexey Seliverstov](https://github.com/prawwtocol)
+* [Artem Zhmurov](https://github.com/zhmurov)
 
 [ysda-org]: https://github.com/yandexdataschool
 [manytask-repo]: https://github.com/manytask/manytask
