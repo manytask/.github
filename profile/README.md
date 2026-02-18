@@ -23,12 +23,7 @@ Discover a modern approach to teaching and learning with Manytask.
 
 ### Contribution
 
-We are thrilled that you're considering contributing to Manytask! Please refer to organisation [contribution guide][contributing-link].
-
-
-### Code of Conduct
-
-All Manytask projects are subject to the [Code of Conduct][conduct-link]. Please review this to know how to interact with us.
+We are thrilled that you're considering contributing to Manytask! We track our progress in [this GitHub project][manytask-project]. We require one approval from another developer and ask contributor to merge the change. Please, squash your branch into one commit and invest some time in writing good commit message when you merge.
 
 
 ### Acknowledgment
@@ -47,15 +42,17 @@ Current developers:
 * [Sofia Anokhovskaya](https://github.com/cin-bun)
 * [Olga Gorbunova](https://github.com/elyaishere)
 * [Ivan Gorobets](https://github.com/KIoppert)
+* [Dmitrii Kiselev](https://github.com/kanmir)
 * [Ivan Komarov](https://github.com/gagarinkomar)
 * [Alexander Kostrikov](https://github.com/akostrikov)
 * [Daniil Maslov](https://github.com/dmasloff)
+* [Ivan Samsonov](https://github.com/D1sney)
 * [Alexey Seliverstov](https://github.com/prawwtocol)
+* [Oleg Shatov](https://github.com/domwst)
 * [Artem Zhmurov](https://github.com/zhmurov)
 
 [ysda-org]: https://github.com/yandexdataschool
 [manytask-repo]: https://github.com/manytask/manytask
+[manytask-project]: https://github.com/orgs/manytask/projects/3
 [checker-repo]: https://github.com/manytask/checker
 [course-templace-repo]: https://github.com/manytask/course-template
-[conduct-link]: https://github.com/manytask/.github/blob/main/CODE_OF_CONDUCT.md
-[contributing-link]: https://github.com/manytask/.github/blob/main/CONTRIBUTING.md
